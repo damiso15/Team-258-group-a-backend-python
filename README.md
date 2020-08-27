@@ -1,6 +1,6 @@
-"# Team-258-group-a-backend-python" 
+# Team-258-group-a-backend-python 
 
-# SECRET NOT FOUND ERROR
+# SECRET_KEY NOT FOUND ERROR
 - go into /core directory
 - locate .envexample file
 - rename to .env
