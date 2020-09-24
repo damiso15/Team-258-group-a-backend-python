@@ -15,7 +15,7 @@ class AddressTable(models.Model):
     city = models.CharField(max_length=255)
     province = models.CharField(max_length=255)
     postal_code = models.IntegerField()
-    country = models.IntegerField(max_length=255)
+    country = models.CharField(max_length=255)
     GPS_coordinates = models.IntegerField()
 
 
